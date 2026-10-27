@@ -19,7 +19,7 @@ namespace MidtermExam.Prob04
         public int AS04_SequentialSearch(int[] values, int target)
         {
             // TODO: เขียนคำตอบแทนคำสั่ง throw ด้านล่าง
-            if (values.Count() <= 0)
+            if (values == null || values.Length <= 0)
             {
                 return -1;
             }
